@@ -8,7 +8,7 @@ namespace Tarea_Académica_Semana_5.entities
 {
     internal class Jugador
     {
-        public int DNI { get; set; }
+        public string DNI { get; set; }
         public string Alias { set; get; }
     }
 }

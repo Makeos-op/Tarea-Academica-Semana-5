@@ -50,7 +50,7 @@
     <Compile Include="controllers\ReporteController.cs" />
     <Compile Include="controllers\VideojuegoController.cs" />
     <Compile Include="entities\Jugador.cs" />
-    <Compile Include="entities\Videojuegos.cs" />
+    <Compile Include="entities\Videojuego.cs" />
     <Compile Include="FormJugador.cs">
       <SubType>Form</SubType>
     </Compile>
