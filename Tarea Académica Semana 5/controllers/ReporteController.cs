@@ -8,5 +8,6 @@ namespace Tarea_Académica_Semana_5.controllers
 {
     internal class ReporteController
     {
+
     }
 }
