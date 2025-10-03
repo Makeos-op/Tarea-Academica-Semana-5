@@ -30,6 +30,7 @@ namespace Tarea_Académica_Semana_5.controllers
         {
             return Videojuegos; 
         }
+        //NO IMPLEMENTADAS POR TIEMPO
         public static List<Videojuego> VideojuegosAscendencia() // Como el momo :v
         {
             return Videojuegos.OrderBy(v => v.Jugadores.Count).ToList(); //Explicar
