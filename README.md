@@ -20,12 +20,12 @@ La entidad **Jugador** debe tener al menos las siguientes propiedades:
 ---
 
 ## Requerimientos de la aplicación
-- [ ] Registrar múltiples videojuegos (no se debe permitir el registro de dos videojuegos con el mismo código).
-- [ ] Mostrar todos los videojuegos registrados junto con sus propiedades.
-- [ ] Registrar múltiples jugadores en sus respectivos videojuegos seleccionados.
-- [ ] Mostrar todos los jugadores registrados junto con sus propiedades.
-- [ ] Mostrar los videojuegos donde participa un jugador según su DNI.
-- [ ] Mostrar el o los videojuegos con mayor cantidad de jugadores.
+- [x] Registrar múltiples videojuegos (no se debe permitir el registro de dos videojuegos con el mismo código).
+- [x] Mostrar todos los videojuegos registrados junto con sus propiedades.
+- [x] Registrar múltiples jugadores en sus respectivos videojuegos seleccionados.
+- [x] Mostrar todos los jugadores registrados junto con sus propiedades.
+- [x] Mostrar los videojuegos donde participa un jugador según su DNI.
+- [x] Mostrar el o los videojuegos con mayor cantidad de jugadores.
 
 ---
 
