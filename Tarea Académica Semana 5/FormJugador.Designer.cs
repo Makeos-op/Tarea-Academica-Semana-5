@@ -51,6 +51,7 @@
             // 
             // tbAlias
             // 
+            this.tbAlias.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbAlias.Location = new System.Drawing.Point(39, 249);
             this.tbAlias.Multiline = true;
             this.tbAlias.Name = "tbAlias";
@@ -59,6 +60,7 @@
             // 
             // tbDNI
             // 
+            this.tbDNI.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbDNI.Location = new System.Drawing.Point(39, 149);
             this.tbDNI.Multiline = true;
             this.tbDNI.Name = "tbDNI";

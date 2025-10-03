@@ -66,6 +66,7 @@
             // 
             // tbCodigo
             // 
+            this.tbCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCodigo.Location = new System.Drawing.Point(45, 297);
             this.tbCodigo.Multiline = true;
             this.tbCodigo.Name = "tbCodigo";
@@ -115,6 +116,7 @@
             // 
             // tbNombre
             // 
+            this.tbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbNombre.Location = new System.Drawing.Point(45, 197);
             this.tbNombre.Multiline = true;
             this.tbNombre.Name = "tbNombre";
