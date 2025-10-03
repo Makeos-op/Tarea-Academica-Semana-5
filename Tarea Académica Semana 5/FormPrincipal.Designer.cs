@@ -37,7 +37,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 46);
+            this.label1.Location = new System.Drawing.Point(32, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(386, 39);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // btnVideojuegos
             // 
-            this.btnVideojuegos.Location = new System.Drawing.Point(92, 128);
+            this.btnVideojuegos.Location = new System.Drawing.Point(125, 124);
             this.btnVideojuegos.Name = "btnVideojuegos";
             this.btnVideojuegos.Size = new System.Drawing.Size(216, 40);
             this.btnVideojuegos.TabIndex = 3;
@@ -56,7 +56,7 @@
             // 
             // btnReporte
             // 
-            this.btnReporte.Location = new System.Drawing.Point(92, 201);
+            this.btnReporte.Location = new System.Drawing.Point(125, 197);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Size = new System.Drawing.Size(216, 38);
             this.btnReporte.TabIndex = 4;
@@ -68,7 +68,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 285);
+            this.ClientSize = new System.Drawing.Size(467, 285);
             this.Controls.Add(this.btnReporte);
             this.Controls.Add(this.btnVideojuegos);
             this.Controls.Add(this.label1);

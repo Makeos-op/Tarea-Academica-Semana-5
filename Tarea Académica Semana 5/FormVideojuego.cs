@@ -60,5 +60,15 @@ namespace Tarea_Académica_Semana_5
             FormJugador form = new FormJugador(CodigoVideojuego);
             form.Show();
         }
+
+        private void btnAscendente_Click(object sender, EventArgs e)
+        {
+            MostrarVideojuegos(VideojuegoController.VideojuegosAscendencia());
+        }
+
+        private void btnDescendente_Click(object sender, EventArgs e)
+        {
+            MostrarVideojuegos(VideojuegoController.VideojuegosDescendencia());
+        }
     }
 }

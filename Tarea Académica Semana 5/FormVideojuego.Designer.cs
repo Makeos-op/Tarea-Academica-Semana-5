@@ -38,6 +38,8 @@
             this.tbNombre = new System.Windows.Forms.TextBox();
             this.btnAñadirJugador = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnAscendente = new System.Windows.Forms.Button();
+            this.btnDescendente = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgVideojuegos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,9 +123,9 @@
             // 
             // btnAñadirJugador
             // 
-            this.btnAñadirJugador.Location = new System.Drawing.Point(920, 121);
+            this.btnAñadirJugador.Location = new System.Drawing.Point(904, 121);
             this.btnAñadirJugador.Name = "btnAñadirJugador";
-            this.btnAñadirJugador.Size = new System.Drawing.Size(111, 29);
+            this.btnAñadirJugador.Size = new System.Drawing.Size(127, 29);
             this.btnAñadirJugador.TabIndex = 10;
             this.btnAñadirJugador.Text = "Añadir Jugador";
             this.btnAñadirJugador.UseVisualStyleBackColor = true;
@@ -140,11 +142,33 @@
             this.label5.Text = "Registro";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // btnAscendente
+            // 
+            this.btnAscendente.Location = new System.Drawing.Point(459, 454);
+            this.btnAscendente.Name = "btnAscendente";
+            this.btnAscendente.Size = new System.Drawing.Size(89, 23);
+            this.btnAscendente.TabIndex = 12;
+            this.btnAscendente.Text = "Ascendente";
+            this.btnAscendente.UseVisualStyleBackColor = true;
+            this.btnAscendente.Click += new System.EventHandler(this.btnAscendente_Click);
+            // 
+            // btnDescendente
+            // 
+            this.btnDescendente.Location = new System.Drawing.Point(554, 453);
+            this.btnDescendente.Name = "btnDescendente";
+            this.btnDescendente.Size = new System.Drawing.Size(100, 23);
+            this.btnDescendente.TabIndex = 13;
+            this.btnDescendente.Text = "Descendente";
+            this.btnDescendente.UseVisualStyleBackColor = true;
+            this.btnDescendente.Click += new System.EventHandler(this.btnDescendente_Click);
+            // 
             // FormVideojuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1053, 499);
+            this.Controls.Add(this.btnDescendente);
+            this.Controls.Add(this.btnAscendente);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnAñadirJugador);
             this.Controls.Add(this.label4);
@@ -176,5 +200,7 @@
         private System.Windows.Forms.TextBox tbNombre;
         private System.Windows.Forms.Button btnAñadirJugador;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnAscendente;
+        private System.Windows.Forms.Button btnDescendente;
     }
 }
