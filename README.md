@@ -33,7 +33,6 @@ La entidad **Jugador** debe tener al menos las siguientes propiedades:
 
 - Utilizar el manejo de **Listas** (no arreglos ni otras estructuras).
 - Utilizar el manejo de **DataGridView** para mostrar datos en formato de tabla.
-- Basarse en el laboratorio **Lab07 - Multilistas en Windows Forms (.Net Framework) II** como referencia.
 
 ---
 ## 📚 Referencia
